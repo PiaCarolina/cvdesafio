@@ -1,0 +1,12 @@
+.about-me {
+display: grid;
+grid-template-columns: 1fr 5fr;
+grid-template-rows: 5fr;
+}
+
+@media (min-width: 600px) {
+  .about-me {
+  grid-template-columns: 5fr;
+  grid-template-rows: 5fr;
+  }
+  }
